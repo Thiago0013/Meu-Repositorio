@@ -1,0 +1,70 @@
+main{
+    margin-top: 200px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 1px 1px 5px rgb(245, 245, 245);
+    backdrop-filter: blur(10px);
+    margin: auto;
+    border-radius: 20px;
+    position: relative;
+}
+.box{
+    position: absolute;
+}
+.box1{
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+}
+.box1:hover{
+    text-decoration: underline;
+}
+.box1:active{
+    color: rgb(189, 189, 189);
+}
+.lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 80px;
+}
+li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+li div{
+    display: inline;
+}
+.liImg1 img{
+    border-radius: 15px;
+    width: 35px;
+    vertical-align: middle; 
+}
+.liText1{
+    text-decoration:underline;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+.liText1:hover{
+    color: rgb(189, 189, 189);
+}
+.liImg2 img{
+    border-radius: 15px;
+    width: 35px;
+    vertical-align: middle;
+}
+.liText2{
+    text-decoration:underline;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+.liText2:hover{
+    color: rgb(189, 189, 189);
+}
