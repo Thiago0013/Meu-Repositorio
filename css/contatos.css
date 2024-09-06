@@ -17,7 +17,9 @@ main{
     cursor: pointer;
     color: rgb(255, 255, 255);
     background-color: transparent;
-    border: none;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10px;
     font-size: 25px;
 }
 .box1:hover{
@@ -34,6 +36,7 @@ main{
     margin-top: 80px;
 }
 li{
+    cursor: pointer;
     list-style-type: none;
     margin-top: 10px;
 }
@@ -47,11 +50,10 @@ li div{
 }
 .liText1{
     text-decoration:underline;
-    cursor: pointer;
     color: white;
     font-size: 20px;
 }
-.liText1:hover{
+#instagram:hover .liText1{
     color: rgb(189, 189, 189);
 }
 .liImg2 img{
@@ -61,10 +63,9 @@ li div{
 }
 .liText2{
     text-decoration:underline;
-    cursor: pointer;
     color: white;
     font-size: 20px;
 }
-.liText2:hover{
+#github:hover .liText2{
     color: rgb(189, 189, 189);
 }
